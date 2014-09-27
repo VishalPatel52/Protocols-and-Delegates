@@ -13,6 +13,7 @@
 		C9C1D18119D6CCA200127CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C1D18019D6CCA200127CEF /* Images.xcassets */; };
 		C9C1D18419D6CCA200127CEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C1D18219D6CCA200127CEF /* LaunchScreen.xib */; };
 		C9C1D19019D6CCA200127CEF /* Protocols_DelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1D18F19D6CCA200127CEF /* Protocols_DelegatesTests.swift */; };
+		C9C1D19E19D6D09600127CEF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1D19D19D6D09600127CEF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C9C1D18919D6CCA200127CEF /* Protocols DelegatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocols DelegatesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C1D18E19D6CCA200127CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C1D18F19D6CCA200127CEF /* Protocols_DelegatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols_DelegatesTests.swift; sourceTree = "<group>"; };
+		C9C1D19D19D6D09600127CEF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C9C1D17919D6CCA200127CEF /* AppDelegate.swift */,
 				C9C1D17B19D6CCA200127CEF /* ViewController.swift */,
+				C9C1D19D19D6D09600127CEF /* DetailViewController.swift */,
 				C9C1D17D19D6CCA200127CEF /* Main.storyboard */,
 				C9C1D18019D6CCA200127CEF /* Images.xcassets */,
 				C9C1D18219D6CCA200127CEF /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C1D19E19D6D09600127CEF /* DetailViewController.swift in Sources */,
 				C9C1D17C19D6CCA200127CEF /* ViewController.swift in Sources */,
 				C9C1D17A19D6CCA200127CEF /* AppDelegate.swift in Sources */,
 			);
